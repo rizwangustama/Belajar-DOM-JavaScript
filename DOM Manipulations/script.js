@@ -14,7 +14,20 @@
 // judul.style.color = 'darktblue';
 // judul.style.backgroundColor = 'salmon';
 
-const judul = document.getElementsByTagName('h1')[0];
-judul.setAttribute('style', 'color: red;')
+// const judul = document.getElementsByTagName('h1')[0];
+// judul.setAttribute('style', 'color: red;')
 
-const a = document.querySelector('section#a a');
+// const a = document.querySelector('section#a a');
+
+// const p2 = document.querySelector('.p2');
+// p2.setAttribute('class', 'label');
+
+
+// element class
+
+// element.classList.add();
+// element.classList.remove()
+// element.classList.item()
+// element.classList.contains()
+// element.classList.replace()
+
