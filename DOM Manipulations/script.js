@@ -31,3 +31,8 @@
 // element.classList.contains()
 // element.classList.replace()
 
+
+const p2 = document.querySelector('.p2');
+
+p2.classList.add('label');
+p2.classList.remove('label');
