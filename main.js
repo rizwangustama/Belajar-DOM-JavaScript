@@ -14,8 +14,15 @@ judul.innerHTML = 'Rizwan Gustama';
 
 
 
-const p = document.querySelectorAll('p');
-for( let i = 0; p.length; i++ ) {
-    p[i].style.backgroundColor = 'lightblue';
-}
+// const p = document.querySelectorAll('p');
+// for( let i = 0; p.length; i++ ) {
+//     p[i].style.backgroundColor = 'lightblue';
+// }
 // p[2].style.backgroundColor = 'lightblue';
+
+
+// Noderoot
+const sectionB = document.getElementById('b');
+const b = sectionB.querySelectorAll('p')[0];
+b.style.backgroundColor = 'orange';
+
