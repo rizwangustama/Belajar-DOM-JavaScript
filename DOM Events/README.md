@@ -1,4 +1,4 @@
-# Belajar-DOM-JavaScript
+# Belajar Events
 
 <h3>Daftar Events</h3>
 <ul>
