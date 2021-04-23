@@ -34,4 +34,28 @@ const sB = document.getElementById('b');
 sB.appendChild(linkBawah);
 
 
+// const liBaru = document.createElement('li');
+// const textLi = document.createTextNode('Rizwan Gustama');
+
+// liBaru.appendChild(textLi);
+
+
+// const ul = document.querySelector('section#b ul');
+// const li2 = ul.querySelector('li:nth-child(2)');
+
+// ul.insertBefore(liBaru, li2);
+
+
+const libag2 = document.createElement('li');
+const textli = document.createTextNode('Halaman Baru');
+
+libag2.appendChild(textli);
+
+const ul = document.querySelector('section#b ul');
+const li3 = ul.querySelector('li:nth-child(3)');
+
+ul.insertBefore(libag2,li3);
+
+
+
 
