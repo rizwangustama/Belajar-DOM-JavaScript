@@ -1,3 +1,4 @@
 # Belajar-DOM-JavaScript
 
-<h1>Belajar DOM JavaScript</h1>
+<h3>Belajar DOM JavaScript</h3>
+Ingin Menambah  pengetahuan tentang Front End Developer
