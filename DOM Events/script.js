@@ -51,12 +51,45 @@
 
 const p3 = document.querySelector('.p3');
 
-p3.addEventListener('click', function() {
+p3.addEventListener('focus', function() {
     p3.style.backgroundColor = 'lightblue';
 });
 
-p3.addEventListener('click', function() {
-    p3.style.color = 'red';
+p3.addEventListener('mouseleave', function() {
+    p3.style.backgroundColor = 'lightgreen';
 });
 
+
+
+const input = document.querySelector('input');
+
+input.addEventListener('focus', function() {
+    input.style.backgroundColor = 'lightblue';
+})
+
+input.addEventListener('blur', function() {
+    input.style.backgroundColor = 'lightblue';
+})
+
+
+// pop
+var popUpBox = document.getElementById('popUpBox');
+
+var button = document.getElementById('popUp');
+
+var keluar = document.getElementsByClassName('keluar')[0];
+
+button.addEventListener('click', function() {
+    popUpBox.style.display = 'block';
+});
+
+keluar.addEventListener('click', function() {
+    popUpBox.style.display = 'none';
+});
+
+window.addEventListener('click', function(event) {
+    if (event.target == popUpBox) {
+        popUpBox.style.display = 'none';
+    }
+})
 
