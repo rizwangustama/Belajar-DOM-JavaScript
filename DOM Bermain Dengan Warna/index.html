@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bermain Dengan Warna</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+    .biru-muda {
+        background-color: lightblue;
+    }
+    #tUbahWarna{
+        padding: 5px 80px;
+        background-color: salmon;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    .kotak {
+        width: 45px;
+        height: 45px;
+        margin: 10px auto;
+    }
+    .merah {
+        background-color: red;
+    }
+</style>
+<body>
+    <h1 class="h1">Bermain Dengan Warna</h1>
+    <button type="button" id="tUbahWarna">ubahWarna</button>
+
+    <br><br>
+
+    <input type="range" name="sMerah" min="1" max="255">
+
+    <div class="kotak merah"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
